@@ -58,10 +58,9 @@ func _input(event):
 
 func _on_GameTimer_timeout():
 	# take player to initial position when time runs out
-	#translation.x = -0.206
-	#translation.y = 2.023
-	#translation.z = 0.552
-	pass
+	translation.x = 26.015
+	translation.y = 2.023
+	translation.z = 27.613
 	
 func initialPlayerPosition():
 	#translation.x = -0.206
